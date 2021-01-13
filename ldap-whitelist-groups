@@ -1,0 +1,2 @@
+cn=${GROUP-NAME},cn=groups,cn=accounts,dc=${DOMAIN},dc=${COM}
+
