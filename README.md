@@ -102,7 +102,7 @@ cn=ocp-production,cn=groups,cn=accounts,dc=redcloud,dc=land
 2. Test the LDAPSyncConfig \
 ` oc adm groups sync --sync-config=ldap-sync.yaml --whitelist=ldap-whitelist-groups `
 
-* If we have pulled groups, your golden! If not, then you'll need to investigate..
+    NOTE: If we have pulled groups, your golden! If not, then you'll need to investigate further...
 
 3. Commit the LDAPSyncConfig \
 ` oc adm groups sync --sync-config=ldap-sync.yaml --whitelist=ldap-whitelist-groups --confirm `
